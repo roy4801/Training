@@ -25,6 +25,7 @@ nav:
   - 雜項:
     - 複雜度: other/complexity.md
     - define: other/define.md
+    - 輸出入優化: other/input.md
   - 資料結構:
     - 標準函式庫: dataStructure/stl.md
     - 堆疊: dataStructure/stack.md
@@ -58,6 +59,7 @@ nav:
     - 模: math/mod.md
     - 歐拉定理及相關應用: math/euler.md
     - 中國剩餘定理: math/chineseremaindertheorem.md
+  - 貢獻: contribution.md
 
 theme:
   name: material
@@ -79,6 +81,7 @@ markdown_extensions:
         linenums: True
     - pymdownx.superfences
     - pymdownx.tabbed
+    - admonition
 
 # Required to load the MathJax javascript for the mdx_math.py
 extra_javascript: ['https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML']
